@@ -17,6 +17,8 @@ public class BookEntity {
     private String author;
     private String isbn;
 
+    public BookEntity(){};
+
     public BookEntity(Long id, String name, String author, String isbn) {
         this.id = id;
         this.name = name;
